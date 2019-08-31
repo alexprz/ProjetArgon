@@ -1,4 +1,23 @@
 # ProjetArgon
+**Why is this project on GitHub ?**
+
+This project has been made as part of our lessons in ENPC school.
+It is not made to be reused as it does not bring anything particular
+to the community (it is not a package).
+Why is it on GitHub then ?
+There may be 2 reasons for this project to be hosted on GitHub:
+- To collaborate with my project partner (if any).
+- To be able to show some projects and code to recruiters.
+
+With this in mind, here are the files to look at.
+
+**Where to look at ?**
+
+```data_cleaning/```  
+This folder contains files which clean the raw data. 
+
+```algo/demand_forecasting/random_forest/```  
+This folder contains files which prepare the data for the training (```transform_features.py```), train the Random Forest model (```random_forest.py```) and estimate the demand with the trained model (```compute_demand.py```).
 
 ## Installation
 Install dependencies by running :
